@@ -57,9 +57,42 @@
   				<div class="jumbotron">
  					<h1>상품 등록 화면</h1> 
 				</div>
+ 					<form role="form">
+                    <div class="form-group">
+                        <label for="inputName">상품이름</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="상품이름을 입력해 주세요">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputEmail">상품 원산지</label>
+                        <input type="email" class="form-control" id="InputEmail" placeholder="상품 원산지를 입력하세요">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword">상품 카테고리</label>
+                        <input type="password" class="form-control" id="inputPassword" placeholder="어떤 종류의 상품입니까">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPasswordCheck">상품 가격</label>
+                        <input type="password" class="form-control" id="inputPasswordCheck" placeholder="상품가격을 입력해주세요">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputMobile">판매자 전화번호</label>
+                        <input type="tel" class="form-control" id="inputMobile" placeholder="판매자 전화번호를 입력해주세요">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputtelNO">상품 설명</label>
+                        <input type="tel" class="form-control" id="inputtelNO" placeholder="상세 설명을 해주세요">
+                    </div>
+            			<div class="form-group text-center">
+                       	<button type="submit" id="join-submit" class="btn btn-primary">
+                           	상품등록<i class="fa fa-check spaceLeft"></i>
+                       	</button>
+                       	<button type="submit" class="btn btn-warning">
+                          		이전화면<i class="fa fa-times spaceLeft"></i>
+                       	</button>
+                    </div>
+                </form>
   			</div>
-  	
-</div>
+		</div>
 	</div>
 </body>
 </html>

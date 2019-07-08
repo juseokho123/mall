@@ -56,11 +56,39 @@
   			</div>
   			<div class="col-sm-9">
   				<div class="jumbotron">
- 					<h1>게시판</h1> 
+  				<h1>게시판</h1>
+  				<table>
+    				<thead>
+    				</thead>
+					    <tbody>
+					        <form>
+					            <tr>
+					                <th>제목: </th>
+					                <td><input type="text" placeholder="제목을 입력하세요. " name="subject" size=30/></td>
+					            </tr>
+					            <tr>
+					                <th>내용: </th>
+					                <td><textarea cols="30" placeholder="내용을 입력하세요. " name="content"></textarea></td>
+					            </tr>
+					            <tr>
+					                <th>첨부파일: </th>
+					                <td><input type="text" placeholder="파일을 선택하세요. " name="filename" size=30/></td>
+					            </tr>
+					            <tr>
+					                <th>비밀번호: </th>
+					                <td><input type="password" placeholder="비밀번호를 입력하세요" size=30/></td>
+					            </tr>
+					            <tr>
+					                <td colspan="2">
+					                    <input type="button" value="등록"">
+					                </td>
+					            </tr>
+					        </form>
+					    </tbody>
+					</table>
 				</div>
   			</div>
-  	
-</div>
+		</div>
 	</div>
 </body>
 </html>
