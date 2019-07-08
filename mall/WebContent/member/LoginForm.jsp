@@ -57,9 +57,29 @@
   				<div class="jumbotron">
  					<h1>로그인 화면</h1> 
 				</div>
+					<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+				        <div class="panel panel-success">
+				            <div class="panel-heading">
+				                <div class="panel-title">아이디와 비밀번호를 입력해주세요</div>
+				            </div>
+				            <div class="panel-body">
+			                <form id="login-form">
+			                    <div>
+			                        <input type="text" class="form-control" name="username" placeholder="Username" autofocus>
+			                    </div>
+			                    <div>
+			                        <input type="password" class="form-control" name="password" placeholder="Password">
+			                    </div>
+			                    <div>
+			                        <button type="submit" class="form-control btn btn-primary">로그인</button>
+			                    </div>
+			                </form>
+			            </div>
+			        </div>
+			    </div>
   			</div>
-  	
-</div>
+		</div>
 	</div>
+
 </body>
 </html>
