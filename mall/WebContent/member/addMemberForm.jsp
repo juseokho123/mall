@@ -37,6 +37,21 @@
   						<a href="/mall/member/addMemberForm.jsp">회원가입</a>
   					</li>
   				</ul>
+  				<ul>
+  					<li>
+  						<a href="/mall/member/LoginForm.jsp">로그인</a>
+  					</li>
+  				</ul>
+  				<ul>
+  					<li>
+  						<a href="/mall/board/addItemForm.jsp">상품등록</a>
+  					</li>
+  				</ul>
+  					<ul>
+  					<li>
+  						<a href="/mall/board/addBoardForm.jsp">게시글등록</a>
+  					</li>
+  				</ul>
   				
   			</div>
   			<div class="col-sm-9">

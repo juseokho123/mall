@@ -28,7 +28,6 @@
   			<div class="col-sm-3 sidebar-bg">
   				<ul>
   					<li>
-  						<i class="fas fa-thumbs-up"></i>
   						<a href="/mall/index.jsp">홈으로</a>
   					</li>
   				</ul>
@@ -44,19 +43,20 @@
   				</ul>
   				<ul>
   					<li>
+  						
   						<a href="/mall/board/addItemForm.jsp">상품등록</a>
   					</li>
   				</ul>
   				<ul>
   					<li>
+  						<i class="fas fa-thumbs-up"></i>
   						<a href="/mall/board/addBoardForm.jsp">게시글등록</a>
   					</li>
   				</ul>
   			</div>
   			<div class="col-sm-9">
   				<div class="jumbotron">
- 					<h1>Hello My Mall</h1> 
-  					<p>우리 쇼핑몰은...</p> 
+ 					<h1>게시판</h1> 
 				</div>
   			</div>
   	
